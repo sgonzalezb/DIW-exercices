@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Roboto Thin';
+    src: url(Roboto/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto Thin Italic';
+    src: url(Roboto/Roboto-ThinItalic.ttf);
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fce13d;
+}
+
+.title {
+    font-family: "Roboto Thin";
+}
+
+b{
+
+    font-weight: bold;
+}
+
+.link :active,:disabled{
+    font-family: "Roboto Thin Italic";
+    color: black;
+
+}
+
